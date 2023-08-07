@@ -28,6 +28,8 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
 (package-initialize)
 
+(custom-set-variables '(markdown-command "/usr/bin/pandoc"))
+
 ;;
 ;; cscope
 
